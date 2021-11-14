@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/jpg" href="./assets/favicon.png" />
+    <title>Quoti</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
+    <!-- Slick Slider -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
+
+    <!-- Custom style -->
+    <link rel="stylesheet" href="./style/CSS/style.css">
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header class="shadow-sm rounded">
+        <nav class="alignment dis-f-row align-center">
+            <div class="logo mt-3 mb-3">
+                <img src="./assets/Logo 1.png" alt="NextSatage">
+            </div>
+            <div class="lang_btn">
+                <button type="button" id="change_lang" class="btn btn-info">العربية</button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Page Body -->
+    <main>
+        <div>
+            <div class="container mt-5 eng_sec">
+                <div class="section_container ">
+                    <section class="left dis-f-row justify-center">
+                        <div class="mobile-slider">
+                            <div>
+                                <img src="./assets/slider/slide1.jpeg" alt="">
+                            </div>
+                            <div>
+                                <img src="./assets/slider/slide2.jpeg" alt="">
+                            </div>
+                        </div>
+                    </section>
+
+                    <section class="right dis-f-col justify-center">
+                        <div class="card" style="width: 100%;">
+                            <div class="img_container">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 24 24">
+                                    <path
+                                        d="M9.983 3v7.391c0 5.704-3.731 9.57-8.983 10.609l-.995-2.151c2.432-.917 3.995-3.638 3.995-5.849h-4v-10h9.983zm14.017 0v7.391c0 5.704-3.748 9.571-9 10.609l-.996-2.151c2.433-.917 3.996-3.638 3.996-5.849h-3.983v-10h9.983z" />
+                                </svg>
+                            </div>
+                            <div class="card_body_container">
+                                <div class="card-body subscribe_form mt-3 shadow rounded">
+                                    <form class="dis-f-col align-center" id="subscribe_form">
+                                        <h5 class="card-title" style="text-align: center;">Enter your number to
+                                            subscribe
+                                        </h5>
+                                        <div class="select_container dis-f-row justify-center">
+                                            <div>
+                                                <select class="form-select providers_selection"
+                                                    aria-label="Default select example">
+                                                    <option value="1">Zain</option>
+                                                    <option value="1">Umniah</option>
+                                                    <option value="1">Orange</option>
+                                                </select>
+                                            </div>
+
+                                            <div class="mb-3">
+                                                <input type="number" class="form-control num_input no-border"
+                                                    placeholder="Enter your number">
+                                            </div>
+                                        </div>
+                                        <input type="submit" value="Continue" class="btn" id="submit_button">
+                                    </form>
+                                </div>
+                                <div class="card-body OTP_form mt-3 shadow rounded">
+                                    <form id="OTP_form">
+                                        <h5 class="card-title" style="text-align: center;">Enter your OTP code</h5>
+                                        <div class="OTP_container dis-f-col justify-center">
+                                            <div class="mb-3">
+                                                <input type="number" class="form-control OTP_input no-border"
+                                                    placeholder="Enter your OTP">
+                                                <input type="submit" value="Subscribe" class="btn"
+                                                    id="subscribe_button">
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+
+                    </section>
+                </div>
+            </div>
+
+            <div class="container mt-5 arabic_sec">
+                <div class="section_container">
+
+                    <section class="right dis-f-col justify-center">
+                        <div class="card">
+                            <div class="img_container">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 24 24">
+                                    <path
+                                        d="M9.983 3v7.391c0 5.704-3.731 9.57-8.983 10.609l-.995-2.151c2.432-.917 3.995-3.638 3.995-5.849h-4v-10h9.983zm14.017 0v7.391c0 5.704-3.748 9.571-9 10.609l-.996-2.151c2.433-.917 3.996-3.638 3.996-5.849h-3.983v-10h9.983z" />
+                                </svg>
+                            </div>
+                            <div class="card-body mt-3 shadow rounded">
+                                <h5 class="card-title" style="text-align: center;">ادخل رقم هاتفك للإشتراك</h5>
+                                <form class="dis-f-col align-center">
+                                    <div class="select_container dis-f-row justify-center">
+                                        <div>
+                                            <select class="form-select providers_selection"
+                                                aria-label="Default select example">
+                                                <option value="1">زين</option>
+                                                <option value="1">أمنية</option>
+                                                <option value="1">اورانج</option>
+                                            </select>
+                                        </div>
+                                        <div class="mb-3">
+                                            <input type="number" class="form-control num_input no-border"
+                                                placeholder="رقم الهاتف" style="text-align: right;">
+                                        </div>
+                                    </div>
+                                    <input type="submit" value="إشتراك" class="btn">
+                                </form>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="left dis-f-row justify-center">
+                        <div class="mobile-slider">
+                            <div>
+                                <img src="./assets/slider/slide1.jpeg" alt="">
+                            </div>
+                            <div>
+                                <img src="./assets/slider/slide2.jpeg" alt="">
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+
+        <div class="alignment content mt-5 dis-f-row" id="quotes_container">
+            <div id="left_side_container"></div>
+            <div id="right_side_container"></div>
+        </div>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="alignment mt-5 dis-f-row justify-center align-center container">
+            <div class="creator dis-f-row justify-center align-center">
+                <p>Created By <a href="https://github.com/noureddein">Nour Eddein</a> | <span> © 2021 All rights
+                        reserved.</span></p>
+            </div>
+            <div class="social-media dis-f-row justify-center align-center pl-1">
+                <a href="https://www.facebook.com/noureddein1" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://github.com/noureddein" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/noureddein/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery Script CDN -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+
+    <!-- Slick slider js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
+    <!-- Custom Script -->
+    <script src="app.js"></script>
+</body>
+
+</html>
