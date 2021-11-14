@@ -1,0 +1,21 @@
+header {
+  background-color: #a5d169;
+  position: sticky;
+  top: 0;
+  z-index: 5;
+}
+header nav {
+  justify-content: space-between;
+}
+header nav .logo img {
+  width: 200px;
+}
+header nav .lang_btn button {
+  background-color: #a39b7b;
+  border: none;
+  color: #fff;
+}
+header nav .lang_btn button:hover {
+  background-color: #a39b7b;
+  outline: none;
+}

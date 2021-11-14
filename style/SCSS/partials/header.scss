@@ -1,0 +1,46 @@
+header {
+    width: 100%;
+    background-color: #a5d169;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    animation: header-animation 500ms ease-in;
+    opacity: 0.95;
+    nav {
+        justify-content: space-between;
+        .logo {
+            img {
+                width: 200px;
+            }
+        }
+        .lang_btn {
+            button {
+                background-color: #a39b7b;
+                border: none;
+                color: #fff;
+            }
+            button:hover {
+                background-color: #a39b7b;
+                outline: none;
+            }
+        }
+    }
+}
+
+@keyframes header-animation {
+    0% {
+        transform: translateY(-100%);
+    }
+    100% {
+        transform: translateY(0%);
+    }
+}
+
+@media (max-width: 769px) {
+    header {
+        .alignment {
+            padding: 0 1.5rem;
+        }
+    }
+}

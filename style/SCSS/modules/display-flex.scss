@@ -1,0 +1,27 @@
+// Pre-defined variables
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Comfortaa", cursive;
+}
+.dis-f-col {
+  display: flex;
+  flex-direction: column;
+}
+.dis-f-row {
+  display: flex;
+  flex-direction: row;
+}
+.align-center {
+  align-items: center;
+}
+.justify-center {
+  justify-content: center;
+}
+
+.alignment {
+  padding: 0 5rem;
+}
+.half-width {
+  width: 50%;
+}

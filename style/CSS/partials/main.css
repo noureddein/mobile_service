@@ -1,0 +1,120 @@
+.form-control {
+  border: 0;
+}
+
+.container {
+  height: 85vh;
+  object-fit: fill;
+}
+.container .section_container {
+  width: 100%;
+  padding: 20px;
+}
+.container .section_container .left {
+  width: 50%;
+}
+.container .section_container .left img {
+  width: 300px;
+}
+.container .section_container .right {
+  width: 50%;
+}
+.container .section_container .right .card {
+  border: none;
+}
+.container .section_container .right .card .title {
+  text-align: center;
+  font-size: 26px;
+  font-weight: 400;
+}
+.container .section_container .right .card .card-body .card-title {
+  font-size: 16px;
+}
+.container .section_container .right .card .card-body .select_container select {
+  text-align: right;
+  border: none;
+  background-color: #a39b7b;
+  border-radius: 0;
+  width: 100px;
+  height: 60px;
+  border-bottom-left-radius: 30px;
+  border-top-left-radius: 30px;
+}
+.container .section_container .right .card .card-body .select_container .num_input {
+  width: 300px;
+  height: 60px;
+  background-color: #a39b7b;
+  border-radius: 0;
+  border: none;
+  border-bottom-right-radius: 30px;
+  border-top-right-radius: 30px;
+}
+.container .section_container .right .card .card-body .select_container .num_input::-webkit-outer-spin-button,
+.container .section_container .right .card .card-body .select_container .num_input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.container .section_container .right .card .card-body .btn {
+  background-color: #a39b7b;
+}
+
+.quotes_card {
+  margin: 1.5rem;
+  background-color: #f9f49c;
+  width: calc(100% - 3rem);
+  transition: transform 0.5s;
+}
+.quotes_card .row .img-fluid {
+  object-fit: fill;
+}
+.quotes_card .card-body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.quotes_card:hover {
+  -ms-transform: scale(1.1);
+  /* IE 9 */
+  -webkit-transform: scale(1.1);
+  /* Safari 3-8 */
+  transform: scale(1.1);
+}
+
+.content {
+  flex-wrap: wrap;
+}
+.content #left_side_container {
+  width: 50%;
+}
+.content #right_side_container {
+  width: 50%;
+}
+
+footer {
+  height: 70px;
+  background-color: #a5d169;
+  color: #fff;
+}
+footer div {
+  height: 100%;
+}
+footer div .creator p {
+  margin: 0;
+}
+footer div .creator p a {
+  text-decoration: none;
+  color: #a39b7b;
+}
+footer div .social-media a i {
+  padding-right: 10px;
+  font-size: 24px;
+  color: #a39b7b;
+}
+
+.left_card {
+  display: flex;
+  flex-direction: row-reverse;
+}
